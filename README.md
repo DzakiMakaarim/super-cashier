@@ -27,7 +27,7 @@ Penjelasan mengenai attribute dan fungsi yang berada di file `Transaction` dan `
 #### Attribute
 - `items`. Digunakan untuk inisiasi data pada sebuah class dengan berbentuk *dictionary*.
 - Syarat diskon yang ditentukan sebagai berikut:
-    1. Jika di atas Rp 200.000 diskon sebesar 5%
+	1. Jika di atas Rp 200.000 diskon sebesar 5%
 	2. Jika di atas Rp 300.000 diskon sebesar 8%
 	3. Jika di atas Rp 500.000 diskon sebesar 10%
 
@@ -56,37 +56,31 @@ Penjelasan mengenai attribute dan fungsi yang berada di file `Transaction` dan `
 
 ## Demonstrasi Program
 ### Menu kasir
-saat pertama kali program dijalankan akan menampilkan dengan id transaksi yang berbeda setiap kali program dijalankan
-**Output**:
+saat pertama kali program dijalankan akan menampilkan dengan id transaksi yang berbeda setiap kali program dijalankan ulang.
 ![image](https://user-images.githubusercontent.com/43342204/215276790-48c7883b-70c1-47af-9f9a-7d44d9cb71ba.png)
 
 ### Menambahkan Barang
 Pelanggan ingin menambah barang dengan detail nama, jumlah dan harga dapat menggunakan menu `add new item`.
-**Output**:
 ![image](https://user-images.githubusercontent.com/43342204/215276771-b13cf691-ad7f-4ac8-9a33-c6347871cdfe.png)
 
 ### Mengubah nama barang
 Pelanggan ingin mengubah nama barang maka dapat menggunakan menu 3 menu yaitu `update item name / quantity / price`.
-**Output**:
 ![image](https://user-images.githubusercontent.com/43342204/215276791-4d9fe6c6-89f6-48f1-96cc-f74d3ce6670d.png)
 
 ### Menghapus barang berdasarkan nama
 Pelanggan ingin menghapus salah satu barang maka dapat menggunakan menu `delete item`.
-**Output**:
 ![image](https://user-images.githubusercontent.com/43342204/215276778-ed9aa80c-7152-4c56-baae-b76147bf5449.png)
 
 ### Menghapus semua barang
-Pelanggan ingin hapus semua barang yang telah ditambahkan maka dapat menggunakan `reset transaction`
-**Output**:
+Pelanggan ingin hapus semua barang yang telah ditambahkan maka dapat menggunakan `reset transaction`.
 ![image](https://user-images.githubusercontent.com/43342204/215276785-2f570552-4afe-473a-a281-e417f3d0f2bb.png)
 
 ### Menampilkan harga akhir
-Pelanggan ingin mengetahui total semua barang yang telah ditambahkan beserta dengan diskonnya maka dapat menggunakan menu `check total price`
+Pelanggan ingin mengetahui total semua barang yang telah ditambahkan beserta dengan diskonnya maka dapat menggunakan menu `check total price`.
 ![image](https://user-images.githubusercontent.com/43342204/215276787-b5ad9724-45ab-4ce0-846b-f1a5ee66303a.png)
 
 ### Keluar dari program
-Pelanggan ingin keluar dari program maka dapat menggunakan `exit`
-**Output**:
+Pelanggan ingin keluar dari program maka dapat menggunakan `exit`.
 ![image](https://user-images.githubusercontent.com/43342204/215276789-4754fb23-f8f9-4f5a-84aa-b971d1bea390.png)
 
 ## Kesimpulan
