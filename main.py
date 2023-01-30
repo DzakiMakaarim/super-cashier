@@ -69,7 +69,6 @@ def main_menu():
                 main_menu()
             elif pilihan == '9':
                 print("Program exit")
-                break
                 exit()
             else:
                 raise ValueError
