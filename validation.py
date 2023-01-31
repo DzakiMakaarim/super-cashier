@@ -3,11 +3,14 @@ def validate_add():
     while True:
         try:
             #use isalpha and isspace function to validate input only contain alphabet character and spaces
+            #cannot be empty
             nama = input("Please enter your item: ")
-            if not all(x.isalpha() or x.isspace() for x in nama):
+            if not nama:
+                raise ValueError
+            elif not all(x.isalpha() or x.isspace() for x in nama):
                 raise ValueError
         except ValueError:
-            print("item must only contain alphabet and can't be empty")
+            print("item must only contain alphabet or with spaces and can't be empty")
         else:
             break
     while True:
